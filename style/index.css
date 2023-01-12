@@ -1,1 +1,48 @@
-/* Add CSS styling here */
+header{
+    background-color: #3C6E71;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #D9D9D9;
+}
+.discription{
+    padding: 20px;
+}
+.lower{
+    background-color: #D9D9D9;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 20px;
+}
+.portfolioEl{
+    text-align: center;
+}
+button{
+    background-color: #D9D9D9;
+    color: #284B63;
+    border: #353535 solid 1px;
+    padding: 5px 10px;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: #284B63;
+    color: #D9D9D9;
+    border: #D9D9D9 solid 1px;
+}
+button a{
+    text-decoration: none;
+    color: inherit;
+}
+footer{
+    background-color: #3C6E71;
+    text-align: center;
+    padding: 20px;
+}
